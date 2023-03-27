@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+<data>
+
+
+</data>
+
+
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ic_launcher_background">
+
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="381dp"
+        android:layout_height="352dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="81dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/ic_launcher_foreground" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="380dp"
+        android:layout_height="158dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="18dp"
+        android:elevation="12dp"
+        android:fadingEdgeLength="30dp"
+        android:padding="10dp"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="12dp"
+        app:cardMaxElevation="12dp"
+        app:contentPadding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.245">
+
+        <EditText
+            android:id="@+id/register_Emailid_Text"
+            style="@style/Text_style"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="236dp"
+            android:hint="@string/Enter_Email_Text"
+            android:minHeight="48dp"
+            android:textColorHint="@color/Text_colour" />
+
+        <EditText
+            android:id="@+id/register_Password_Text"
+            style="@style/Text_style"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:ems="10"
+            android:hint="@string/Enter_Password_Text"
+            android:importantForAutofill="no"
+            android:inputType="@string/Password_Text"
+            android:minHeight="48dp"
+            android:textColorHint="@color/Text_colour" />
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+
+
+        android:id="@+id/back_register_Button"
+
+        style="@style/Button_style"
+        android:layout_width="188dp"
+        android:layout_height="48dp"
+        android:backgroundTint="@color/Button_colour"
+        android:elevation="300dp"
+        android:text="@string/Register_button_Text"
+        android:theme="@style/Button_style"
+        app:cornerRadius="1500dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView"
+        app:layout_constraintVertical_bias="0.163"
+        tools:ignore="OnClick" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

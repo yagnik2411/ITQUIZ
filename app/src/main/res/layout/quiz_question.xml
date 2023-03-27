@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView2"
+            android:layout_width="380dp"
+            android:layout_height="226dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            app:cardBackgroundColor="#F5F5F5"
+            app:cardCornerRadius="20dp"
+            app:layout_constraintBottom_toBottomOf="@+id/Submit_Button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.516"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.118">
+
+            <TextView
+                android:id="@+id/Question_Text"
+                style="@style/Text_style"
+                android:layout_width="match_parent"
+                android:layout_height="127dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:rotationX="8"
+                android:textSize="24sp" />
+        </androidx.cardview.widget.CardView>
+
+        <Button
+            android:id="@+id/True_Button"
+            style="@style/Button1_style"
+            android:layout_width="162dp"
+            android:layout_height="69dp"
+            android:layout_marginTop="178dp"
+            android:layout_marginBottom="196dp"
+            android:backgroundTint="@color/Button_colour"
+            android:text="@string/True_Text"
+            android:textSize="24sp"
+            app:cornerRadius="100dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/False_Button"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintHorizontal_chainStyle="spread"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardView2" />
+
+        <Button
+            android:id="@+id/False_Button"
+            style="@style/Button1_style"
+            android:layout_width="162dp"
+            android:layout_height="69dp"
+            android:layout_marginTop="184dp"
+            android:layout_marginBottom="196dp"
+            android:backgroundTint="@color/Button_colour"
+            android:text="@string/False_Text"
+            android:textSize="24sp"
+            app:cornerRadius="1000dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/True_Button"
+            app:layout_constraintTop_toBottomOf="@+id/cardView2"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <Button
+            android:id="@+id/Next_button"
+            style="@style/Button1_style"
+            android:layout_width="147dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="@color/Button_colour"
+            android:text="@string/Next_Text"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            app:cornerRadius="100dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/Previous_button"
+            app:layout_constraintTop_toBottomOf="@+id/False_Button"
+            app:layout_constraintVertical_bias="0.021" />
+
+        <Button
+            android:id="@+id/Previous_button"
+            style="@style/Button1_style"
+            android:layout_width="147dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:backgroundTint="@color/Button_colour"
+            android:text="@string/Previous_Text"
+            android:textSize="20sp"
+            app:cornerRadius="1000dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/Next_button"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintHorizontal_chainStyle="packed"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/True_Button"
+            app:layout_constraintVertical_bias="0.028" />
+
+        <Button
+            android:id="@+id/Submit_Button"
+            style="@style/Button_style"
+            android:layout_width="380dp"
+            android:layout_height="63dp"
+            android:layout_marginBottom="40dp"
+            android:backgroundTint="@color/Button_colour"
+            android:text="@string/Submit_Text"
+            android:textAlignment="center"
+            android:textColor="@color/Text_colour"
+            android:textSize="34sp"
+            app:cornerRadius="100dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.454"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "786870735329",
+    "project_id": "i-t-quiz-df0ab",
+    "storage_bucket": "i-t-quiz-df0ab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:786870735329:android:5a6bbb04fd91454aba82a0",
+        "android_client_info": {
+          "package_name": "com.example.itquiz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "786870735329-0odph28q2iqrodn9b98vkinch5u1as5q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgJaT5NNwzEAg4tVQcqq-cDi2StNRlf9s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "786870735329-0odph28q2iqrodn9b98vkinch5u1as5q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

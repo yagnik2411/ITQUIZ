@@ -1,0 +1,42 @@
+<resources>
+    <string name="Question1">Are C and C++ both having a concept of OOP?</string>
+    <string name="Question2">Is String datatype in C?</string>
+    <string name="Question3">Is STL concept part of C++?</string>
+    <string name="Question4">Is Pointer to Pointer Datatype storing address of another pointer? </string>
+    <string name="Question5">IS C++ known as Class with C?</string>
+    <string name="Question6">Are Spaces and commas  allowed in a variable name in C++ and C?</string>
+    <string name="Question7"> Is Void Pointer returned by malloc in C?</string>
+    <string name="Question8">It is not possible to achieve Inheritance of Classes in C++?</string>
+    <string name="Question9">Sub classes may also be called Child classes/Derived classes in C++?</string>
+    <string name="Question10">Isn\'t sizeof( ) function returns the size of a variable in C++ and C?</string>
+    <string name="correct">That\'s correct</string>
+    <string name="incorrect">That\'s incorrect</string>
+
+
+
+
+
+
+
+
+    <string name="app_name">I.T. QUIZ</string>
+    <string name="Welcome_Text">Welcome</string>
+    <string name="ITQuiz_Text">To IT Quiz</string>
+    <string name="Enter_Password_Text">Enter Your Password</string>
+    <string name="Enter_Email_Text">Enter Your Emailid.</string>
+    <string name="Your_EmailId_Text"></string>
+    <string name="Password_Text" ></string>
+    <string name="Login_Button_Text">LOGIN</string>
+    <string name="False_Text">False</string>
+    <string name="True_Text">True</string>
+    <string name="Previous_Text">Previous</string>
+    <string name="Next_Text">Next</string>
+    <string name="Submit_Text">Submit</string>
+    <string name="Congo_text">Congratulation</string>
+    <string name="Score_text" />
+    <string name="Your_score_Text">Your Score is</string>
+    <string name="register_button_text">Don\'t have an acoount?sign up.</string>
+    <string name="Register_button_Text">REGISTER</string>
+    <string name="Your_Name_Text"></string>
+
+</resources>
